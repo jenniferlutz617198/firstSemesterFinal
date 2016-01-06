@@ -14,6 +14,7 @@
 		D73532561C3DB1BC00773316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73532541C3DB1BC00773316 /* LaunchScreen.storyboard */; };
 		D73532611C3DB1BC00773316 /* firstSemesterFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73532601C3DB1BC00773316 /* firstSemesterFinalTests.swift */; };
 		D735326C1C3DB1BC00773316 /* firstSemesterFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735326B1C3DB1BC00773316 /* firstSemesterFinalUITests.swift */; };
+		D735327A1C3DB3D300773316 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73532791C3DB3D300773316 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D73532671C3DB1BC00773316 /* firstSemesterFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstSemesterFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D735326B1C3DB1BC00773316 /* firstSemesterFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstSemesterFinalUITests.swift; sourceTree = "<group>"; };
 		D735326D1C3DB1BC00773316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73532791C3DB3D300773316 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D735324B1C3DB1BC00773316 /* AppDelegate.swift */,
 				D735324D1C3DB1BC00773316 /* ViewController.swift */,
+				D73532791C3DB3D300773316 /* secondViewController.swift */,
 				D735324F1C3DB1BC00773316 /* Main.storyboard */,
 				D73532521C3DB1BC00773316 /* Assets.xcassets */,
 				D73532541C3DB1BC00773316 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D735324E1C3DB1BC00773316 /* ViewController.swift in Sources */,
+				D735327A1C3DB3D300773316 /* secondViewController.swift in Sources */,
 				D735324C1C3DB1BC00773316 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
