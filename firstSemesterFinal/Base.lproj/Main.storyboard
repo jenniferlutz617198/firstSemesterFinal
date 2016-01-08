@@ -24,6 +24,7 @@
                                 </state>
                                 <connections>
                                     <action selector="myButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WLY-Kg-iak"/>
+                                    <segue destination="QgN-T5-aIv" kind="show" id="pHE-HS-IKK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -33,6 +34,29 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="440" y="349"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="5gY-Ib-1CL">
+            <objects>
+                <viewController id="QgN-T5-aIv" customClass="secondViewController" customModule="firstSemesterFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5RK-Tt-qzb"/>
+                        <viewControllerLayoutGuide type="bottom" id="kut-ue-OuN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tnI-UM-Vqu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dS7-Zd-8gV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l0y-Rh-k3s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1153" y="349"/>
         </scene>
     </scenes>
 </document>
